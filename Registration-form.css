@@ -1,0 +1,160 @@
+body {
+	background-color: #CDEAF1;
+	font-family: roboto, sans-serif;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.blue-header {
+	background-color: blue;
+	height: 8px;
+	width: 600px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.header {
+	height: 150px;
+	width: 600px;
+	background-color: white;
+	
+
+}
+
+.Email , .fullname ,.Phone-Number , .Number-NOK , .Payment, .Location, .School, .Reason, .About {
+	height: 150px;
+	width: 600px;
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+.Sponsor {
+	height: 180px;
+	width: 600px;
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+h1 {
+	margin-left: 30px;
+}
+
+.header p , .Account p , .Number-NOK p{
+	margin-left: 30px;
+	font-size: 14px;
+	margin-right: 20px;
+	padding-bottom: 5px;
+}
+
+.Account {
+	height: 80px;
+	width: 600px;
+	background-color: white;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top: 1px solid lightgray;
+}
+
+.Email-Head , .fn-Head , .pn-Head , .Payment-Head , .Sponsor-Head, .loc-Head, .sch-Head, .reason-Head, .about-Head {
+	margin-left: 30px;
+	font-size: 14px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.num-Head {
+	margin-left: 30px;
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+.Email-input input , .fn-input input , .pn-input input , .num-input input , .loc-input input ,.sch-input input,
+.reason-input input , .about-input input{
+	margin-left: 30px;
+	font-size: 14px;
+	padding-top: 20px;
+	outline: 0px;
+	width: 300px;
+	border: 0px;
+	border-bottom: 1px solid lightgray;
+}
+
+.Payment-input input , .Sponsor-input input {
+	margin-left: 30px;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+h5 {
+	margin-left: 0px;
+	margin-right: 90px;
+	font-size: 15px;
+	color: grey;
+}
+
+h6 {
+	margin-left: 0px;
+	margin-right: 350px;
+	/*font-size: 1px;*/
+	color: grey;
+}
+
+.submit input {
+	background-color: blue;
+	color: white;
+	border: 0px;
+	border-radius: 3px;
+	font-size: 15px;
+	width: 80px;
+	height: 30px;
+	margin-right: 150px;
+
+}
+
+.bar {
+	width: 150px;
+	height: 10px;
+	background-color: green;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-top: 15px;
+	}
+
+	.footer {
+		display: flex;
+		align-content: space-around;
+		flex-direction: row;
+		justify-content:center;
+		align-items: center;
+		padding-right: 20px;
+		}
+
+.Clear {
+		margin-left: 50px;
+		color: blue;
+		border: 0px;
+		background-color: #CDEAF1;
+	}	
+
+	.pt {
+		font-size: 10px;
+		color: grey ; 
+	}
+	.ll {
+		color: grey;
+		font-size: 12px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+	}
+
+	
